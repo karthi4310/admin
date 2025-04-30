@@ -75,8 +75,8 @@ public class AdminConfigMapper {
         return globalSettingDTOs.stream().map(dto -> {
             GlobalSetting globalSetting = new GlobalSetting();
             globalSetting.setType(dto.getType());
-            globalSetting.setKey(dto.getKey());
-            globalSetting.setValue(dto.getValue());
+            globalSetting.setAge(dto.getAge());
+            globalSetting.setEducation(dto.getEducation());
             return globalSetting;
         }).collect(Collectors.toList());
     }
@@ -144,8 +144,8 @@ public class AdminConfigMapper {
     public GlobalSettingDTO toGlobalSettingDTO(GlobalSetting g) {
         GlobalSettingDTO dto = new GlobalSettingDTO();
         dto.setType(g.getType());
-        dto.setKey(g.getKey());
-        dto.setValue(g.getValue());
+        dto.setAge(g.getAge());
+        dto.setEducation(g.getEducation());
         return dto;
     }
 

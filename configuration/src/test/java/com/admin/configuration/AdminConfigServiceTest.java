@@ -52,7 +52,7 @@ class AdminConfigServiceTest {
         userDTO.setRoleId(1L); // Assuming 1L corresponds to a valid role
         userDTO.setIsNewUser(true);
 
-        // Mock RoleDTO
+    
         RoleDTO roleDTO = new RoleDTO();
         roleDTO.setRoleName("Admin");
         roleDTO.setModuleTypes(Collections.singletonList(ModuleType.EMPLOYEE)); // Assuming this is a valid module type

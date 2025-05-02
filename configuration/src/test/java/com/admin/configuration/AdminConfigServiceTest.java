@@ -46,7 +46,6 @@ class AdminConfigServiceTest {
     void setup() {
         requestDTO = new AdminConfigRequestDTO();
 
-        // Mock UserDTO
         UserDTO userDTO = new UserDTO();
         userDTO.setUsername("testuser");
         userDTO.setEmail("testuser@example.com");

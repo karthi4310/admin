@@ -7,7 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
+/**sjsiw
  * DTO for transferring user configuration data.
  */
 @Data
